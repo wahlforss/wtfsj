@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('#wrapper').css("visibility", "visible");
 	randomizeBackground()
 	randomizeData()
 	$('#wrapper').css("visibility", "visible");
