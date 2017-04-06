@@ -1,0 +1,29 @@
+{
+  "name": "videovideo",
+  "version": "1.0.0",
+  "description": "kickstarer",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahlforss/kickstarterfilm.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Alfred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahlforss/kickstarterfilm/issues"
+  },
+  "engines": {
+    "node": "6.9.4"
+  },
+  "homepage": "https://github.com/wahlforss/kickstarterfilm#readme"
+}
