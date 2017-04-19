@@ -7,11 +7,18 @@ app.set('port', (process.env.PORT || 3000));
 app.get('/', function(req, res){
 	res.sendFile(__dirname + '/front_page.html');
 });
+
+app.get('/info', function(req, res){
+	res.sendFile(__dirname + '/text.html');
+});
 app.use(express.static(__dirname + '/images'));
 
 
 app.get('/front_page.css', function(req, res){
 	res.sendFile(__dirname + '/front_page.css');
+});
+app.get('/text.css', function(req, res){
+	res.sendFile(__dirname + '/text.css');
 });
 app.get('/train.json', function(req, res){
 	res.sendFile(__dirname + '/train.json');

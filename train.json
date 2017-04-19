@@ -1,9 +1,21 @@
 [
  {
-   "Destination": "Stockholm - Göteborg",
+   "Destination": "Göteborg - Stockholm ",
    "Cost": "1 690 kr",
    "Carbon": "0.0019 kg",
    "Hours": "3 timmar"
+ },
+ {
+   "Destination": "Umeå - Stockholm",
+   "Cost": "1 930 kr",
+   "Carbon": "0.03333 kg",
+   "Hours": "6 timmar"
+ },
+ {
+   "Destination": "Stockholm - Malmö",
+   "Cost": "2 370 kr",
+   "Carbon": "0.0025 kg",
+   "Hours": "5 timmar"
  },
  {
    "Destination": "Umeå - Göteborg",
@@ -18,45 +30,27 @@
    "Hours": "2 timmar"
  },
  {
+   "Destination": "Växjö - Stockholm",
+   "Cost": "1 688 kr",
+   "Carbon": "0.00091 kg",
+   "Hours": "3 timmar"
+ },
+ {
    "Destination": "Karlstad - Stockholm",
    "Cost": "1 350 kr",
    "Carbon": "0.0014 kg",
    "Hours": "3 timmar"
  },
  {
-   "Destination": "Karlskrona - Stockholm",
-   "Cost": "2 843 kr",
-   "Carbon": "0.0023 kg",
+   "Destination": "Skellefteå - Stockholm",
+   "Cost": "2 015 kr",
+   "Carbon": "0.0020 kg",
    "Hours": "5 timmar"
  },
  {
-   "Destination": "Örebro - Malmö",
-   "Cost": "1 836 kr",
-   "Carbon": "0.0020 kg",
-   "Hours": "6 timmar"
- },
- {
-   "Destination": "Motala - Malmö",
-   "Cost": "1 850 kr",
-   "Carbon": "0.0016 kg",
-   "Hours": "4 timmar"
- },
- {
-   "Destination": "Stockholm - Linköping",
-   "Cost": "1 120 kr",
-   "Carbon": "0.00088 kg",
-   "Hours": "3 timmar"
- },
- {
-   "Destination": "Stockholm - Leksand",
-   "Cost": "1 020 kr",
-   "Carbon": "0.00095 kg",
-   "Hours": "3 timmar"
- },
- {
-   "Destination": "Stockholm - Malmö",
-   "Cost": "2 370 kr",
-   "Carbon": "0.0025 kg",
+   "Destination": "Karlskrona - Stockholm",
+   "Cost": "2 843 kr",
+   "Carbon": "0.0023 kg",
    "Hours": "5 timmar"
  }
 ]

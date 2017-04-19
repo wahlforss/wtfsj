@@ -19,8 +19,8 @@ function randomizeBackground() {
 }
 
 function randomizeData() {
+	var randomSelect = Math.floor(Math.random() * 9);
 	$.getJSON("train.json", function(json) {
-		var randomSelect = Math.floor(Math.random() * Object.keys(json).length);
     	var trainObject = json[randomSelect];
     	$("#trainDest").text(trainObject.Destination)
     	$("#trainCarbon").text(trainObject.Carbon)
@@ -28,8 +28,7 @@ function randomizeData() {
     	console.log(trainObject.Destination);
 });
 	$.getJSON("airplane.json", function(json) {
-		var randomSelectA = Math.floor(Math.random() * Object.keys(json).length);
-		var planeObject = json[randomSelectA];
+		var planeObject = json[randomSelect	];
     	$("#planeDest").text(planeObject.Destination)
     	$("#planeCarbon").text(planeObject.Carbon)
     	$("#planeCost").text(planeObject.Cost)

@@ -14,9 +14,12 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: white;
 	font-weight: bold;
-	background-color: #10A237;
 	
 
+}
+a, a:hover {
+	color: white;
+	text-decoration: none;
 }
 h1 {
 	position: absolute;

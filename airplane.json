@@ -1,20 +1,38 @@
 [
  {
-   "Destination": "Stockholm - Umeå",
+   "Destination": "Göteborg - Stockholm",
+   "Cost": "665 kr",
+   "Carbon": "71.63 kg",
+   "Hours": "1 timme"
+ },
+ {
+   "Destination": "Umeå - Stockholm",
    "Cost": "847 kr",
    "Carbon": "80.33 kg",
    "Hours": "1 timme"
  },
  {
-   "Destination": "Malmö - Stockholm",
+   "Destination": "Stockholm - Malmö",
    "Cost": "577 kr",
    "Carbon": "95.87 kg",
    "Hours": "1 timme"
  },
  {
-   "Destination": "Göteborg - Stockholm",
-   "Cost": "665 kr",
-   "Carbon": "71.63 kg",
+   "Destination": "Umeå - Göteborg",
+   "Cost": "1392 kr",
+   "Carbon": "151.97 kg",
+   "Hours": "2 timmar"
+ },
+ {
+   "Destination": "Stockholm - Berlin",
+   "Cost": "706 kr",
+   "Carbon": "120 kg",
+   "Hours": "2 timmar"
+ },
+ {
+   "Destination": "Växjö - Stockholm",
+   "Cost": "1000 kr",
+   "Carbon": "62.78 kg",
    "Hours": "1 timme"
  },
  {
@@ -24,14 +42,8 @@
    "Hours": "3 timmar"
  },
  {
-   "Destination": "Stockholm - Berlin",
-   "Cost": "706 kr",
-   "Carbon": "120 kg",
-   "Hours": "2 timmar"
- },
- {
    "Destination": "Skellefteå - Stockholm",
-   "Cost": "936 kr",
+   "Cost": "334 kr",
    "Carbon": "98.20 kg",
    "Hours": "1 timme"
  },
