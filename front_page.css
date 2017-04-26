@@ -22,6 +22,13 @@ a, a:hover {
 	text-decoration: none;
 }
 h1 {
+	position: absolute;
+	top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 	font-size: 5em;
 }
 h2 {
@@ -44,12 +51,15 @@ div { height: 100%;  }
 	background-size: cover;
 	background-color: white;
 	display: flex;
-	justify-content: center; 
+	justify-content: center;
+	display: -webkit-flex; /* Safari */
+  -webkit-justify-content: center; /* Safari 6.1+ */
 	
 }
 .center {
 	/* align horizontal */
-	align-items: center; /* align vertical */
+	align-self: center;
+	-webkit-align-self: center;
 }
 .trainheader {
 	width: auto;
@@ -97,9 +107,8 @@ div { height: 100%;  }
 	width: 100%;
 	right: 0;
 	position: absolute;
-
-    bottom: 0;
-    overflow: hidden;
+  bottom: 0;
+  overflow: hidden;
 }
 h4 {
 	font-size: 0.8em;
