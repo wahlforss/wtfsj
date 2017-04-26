@@ -22,8 +22,6 @@ a, a:hover {
 	text-decoration: none;
 }
 h1 {
-	position: absolute;
-	top: 0;
 	font-size: 5em;
 }
 h2 {
