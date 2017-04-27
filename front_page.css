@@ -9,6 +9,7 @@ body, html {
 
 #wrapper {
 	visibility: hidden;
+	width: 100%;
 }
 body {
 	text-align: center;
@@ -39,12 +40,10 @@ div { height: 100%;  }
 
 .container-fluid {
 	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
-.wrapper {
-	height: 100%;
-	position: relative;
-	
-}
+
 .half {
 	height:50%;
 	background-position: center;
@@ -131,7 +130,7 @@ h4 {
 	}
 }
 
-@media (max-height: 600px) {
+@media (max-height: 700px) {
 	h1 {
 		font-size: 3em;
 	}
@@ -142,7 +141,7 @@ h4 {
 		font-size: 1em;
 	}
 }
-@media (max-height: 500px) {
+@media (max-height: 600px) {
 	h1 {
 		font-size: 1em;
 	}

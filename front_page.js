@@ -10,10 +10,10 @@ $(document).ready(function() {
 //picking a random picture as background
 function randomizeBackground() {
 	var trainRandom = Math.floor(Math.random() * 5)
-	var trainImage = 'url(https://gentle-sea-98329.herokuapp.com/green/train/train' + trainRandom + '.jpg)'
+	var trainImage = 'url(./green/train/train' + trainRandom + '.jpg)'
 	$('#train').css("background-image", trainImage)
 	var airplaneRandom = Math.floor(Math.random() * 5)
-	var airplaneImage = 'url(https://gentle-sea-98329.herokuapp.com/green/airplane/airplane' + trainRandom + '.jpg)'
+	var airplaneImage = 'url(./green/airplane/airplane' + trainRandom + '.jpg)'
 	$('#plane').css("background-image", airplaneImage)
 
 }
